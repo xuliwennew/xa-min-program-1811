@@ -1,12 +1,35 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
+    "pages/news/news",
+    
     "pages/logs/logs"
+
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor":"gray",
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "我的",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+    "position":"bottom",
+    "custom":true,
+    "list":[
+      {
+        "selectedIconPath":"/assets/icons/geren.png",
+        "iconPath":"/assets/icons/geren0.png",
+        "pagePath":"pages/index/index",
+        "text":"首页"
+      },
+      {
+"selectedIconPath": "/assets/icons/jiaoshi.png",
+"iconPath": "/assets/icons/jiaoshi0.png",
+        "pagePath": "pages/news/news",
+        "text": "新闻"
+      }
+    ]
   }
 }

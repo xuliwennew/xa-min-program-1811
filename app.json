@@ -1,35 +1,42 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/login/login",
     "pages/news/news",
-    
-    "pages/logs/logs"
-
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/reg/reg"
   ],
   "window": {
     "backgroundTextStyle": "dark",
-    "backgroundColor":"gray",
+    "backgroundColor": "gray",
     "navigationBarBackgroundColor": "#f00",
     "navigationBarTitleText": "我的",
     "navigationBarTextStyle": "white",
-    "enablePullDownRefresh":true
+    "enablePullDownRefresh": true
   },
-  "tabBar":{
-    "position":"bottom",
-    "custom":true,
-    "list":[
+  "tabBar": {
+    "position": "bottom",
+    "custom": false,
+    "list": [
       {
-        "selectedIconPath":"/assets/icons/geren.png",
-        "iconPath":"/assets/icons/geren0.png",
-        "pagePath":"pages/index/index",
-        "text":"首页"
+        "selectedIconPath": "/assets/icons/geren.png",
+        "iconPath": "/assets/icons/geren0.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
       },
       {
-"selectedIconPath": "/assets/icons/jiaoshi.png",
-"iconPath": "/assets/icons/jiaoshi0.png",
+        "selectedIconPath": "/assets/icons/jiaoshi.png",
+        "iconPath": "/assets/icons/jiaoshi0.png",
         "pagePath": "pages/news/news",
         "text": "新闻"
       }
     ]
-  }
+  },
+  "debug": true,
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
 }

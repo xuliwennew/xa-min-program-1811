@@ -1,6 +1,6 @@
-//index.js
-//获取应用实例
+ 
 const app = getApp()
+import common from "../../utils/common.js"
 
 Page({
   data: {
@@ -16,6 +16,7 @@ Page({
     })
   },
   onLoad: function () {
+    console.log(common.getTitle())
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,

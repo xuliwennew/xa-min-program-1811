@@ -1,0 +1,22 @@
+ 
+ <view>
+    <view>用户登录</view>
+    <view>
+       <view>用户名：
+         <input bindinput="getUserName" type="text" class="name"  /> 
+       </view>
+       <view>密码:
+         <input type="password" bindinput='getPassword' class="name"  /> 
+       </view>
+    </view>
+    <view>
+      <button bindtap="showMe">登录</button>
+    </view>
+ </view>
+
+ <!-- <view>
+  <text>{{num}}</text>
+  <button bindtap='count'>+</button>
+</view> -->
+
+<button bindtap='goUrl'>用户注册</button>

@@ -1,2 +1,23 @@
-<!--pages/news/news.wxml-->
-<text>pages/news/news.wxml</text>
+<include src="./tpls/header.wxml" />
+<view wx:key="{{index}}" class="box" wx:for="{{cources}}">
+  <text>{{index}}-{{item.title}}</text>
+    <view wx:for="{{item.tags}}">
+      <text>{{item}}</text>
+    </view>
+</view>
+
+<block wx:for="{{[1, 2, 3]}}">
+  <view>{{index}}:</view>
+  <view>{{item}}</view>
+</block>
+
+
+<import src="./tpls/title.wxml" />
+
+<template is="{{'t1'}}" data="{{title}}">
+
+</template>
+
+<wxs src="./wxs/hello.wxs" module="hello" />
+
+<view>{{hello.a}}</view>

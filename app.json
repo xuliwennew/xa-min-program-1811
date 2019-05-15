@@ -1,18 +1,20 @@
 {
   "pages": [
-    "pages/login/login",
     "pages/news/news",
     "pages/index/index",
+    "pages/products/products",
+    "pages/login/login",
+    
     "pages/logs/logs",
-    "pages/reg/reg"
+    "pages/reg/reg" 
   ],
   "window": {
     "backgroundTextStyle": "dark",
     "backgroundColor": "gray",
     "navigationBarBackgroundColor": "#f00",
     "navigationBarTitleText": "我的",
-    "navigationBarTextStyle": "white",
-    "enablePullDownRefresh": true
+    "navigationBarTextStyle": "white"
+    
   },
   "tabBar": {
     "position": "bottom",

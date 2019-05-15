@@ -1,4 +1,4 @@
-<include src="./tpls/header.wxml" />
+<!-- <include src="./tpls/header.wxml" />
 <view wx:key="{{index}}" class="box" wx:for="{{cources}}">
   <text>{{index}}-{{item.title}}</text>
     <view wx:for="{{item.tags}}">
@@ -20,4 +20,6 @@
 
 <wxs src="./wxs/hello.wxs" module="hello" />
 
-<view>{{hello.a}}</view>
+<view>{{hello.a}}</view> -->
+
+<app-news-list binddel="delItem" data="{{newsList}}"/>

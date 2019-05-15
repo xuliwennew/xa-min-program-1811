@@ -1,4 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "app-hello":"../../components/world/world"
+  }
   
 }

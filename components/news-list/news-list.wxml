@@ -1,0 +1,3 @@
+<!--components/news-list/news-list.wxml-->
+<text>news list</text>
+<app-news binddelEvent="delNews" wx:key="{{index}}" data="{{item}}" idx="{{index}}" wx:for="{{data}}" />

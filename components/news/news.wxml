@@ -1,0 +1,4 @@
+<view>
+   <text>{{data.title}} {{idx}}</text>
+   <text data-idx="{{idx}}" bindtap='del'>x</text>
+ </view>

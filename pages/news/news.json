@@ -1,5 +1,7 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "app-news-list":"../../components/news-list/news-list"
+  },
   "navigationBarBackgroundColor": "#00f",
   "navigationBarTitleText": "新闻"
 }

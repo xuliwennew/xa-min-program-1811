@@ -1,0 +1,12 @@
+
+/* .box {
+  width:750rpx;
+  height:600rpx;
+  background-color: black
+} */
+
+.item {
+  width:100%;
+  height:200px;
+  border-bottom: 1px solid gray
+}
